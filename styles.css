@@ -632,3 +632,207 @@ footer {
 .footer-logo {
     height: 50px;
 }
+
+/* Mobile Devices */
+@media (max-width: 600px) {
+    header .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    nav {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    .hero-slider {
+        padding: 100px 10px;
+        font-size: 1.5em;
+    }
+
+    .hero-slider h2 {
+        font-size: 2em;
+    }
+
+    .hero-slider p {
+        font-size: 1.5em;
+    }
+
+    .team-member img {
+        width: 150px;
+        height: 150px;
+    }
+
+    #products .product-item {
+        width: 100%;
+        height: auto;
+    }
+
+    #about .info-box {
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+
+    #about .info-box-item {
+        padding: 0 10px;
+    }
+
+    #ideology h2 {
+        font-size: 1.5em;
+    }
+
+    #ideology p {
+        font-size: 1em;
+    }
+
+    .album {
+        width: 200px;
+    }
+
+    .modal-content {
+        width: 90%;
+    }
+}
+
+/* Tablets */
+@media (min-width: 601px) and (max-width: 900px) {
+    header .container {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    header h1 {
+        font-size: 1.8em;
+    }
+
+    nav {
+        margin-left: 0;
+    }
+
+    nav ul {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .hero-slider {
+        padding: 120px 20px;
+        font-size: 1.8em;
+    }
+
+    .hero-slider h2 {
+        font-size: 3em;
+    }
+
+    .hero-slider p {
+        font-size: 2em;
+    }
+
+    .team-member img {
+        width: 200px;
+        height: 200px;
+    }
+
+    #products .product-item {
+        width: 45%;
+    }
+
+    #about .info-box {
+        padding: 30px;
+        margin-bottom: 40px;
+    }
+
+    #about .info-box-item {
+        padding: 0 15px;
+    }
+
+    #ideology h2 {
+        font-size: 1.8em;
+    }
+
+    #ideology p {
+        font-size: 1.1em;
+    }
+
+    .album {
+        width: 220px;
+    }
+
+    .modal-content {
+        width: 80%;
+    }
+}
+
+/* Large Desktops */
+@media (min-width: 1200px) {
+    header .container {
+        padding: 0 40px;
+    }
+
+    header h1 {
+        font-size: 2.5em;
+    }
+
+    nav ul {
+        justify-content: flex-end;
+    }
+
+    .hero-slider {
+        padding: 150px 40px;
+    }
+
+    .hero-slider h2 {
+        font-size: 4em;
+    }
+
+    .hero-slider p {
+        font-size: 3em;
+    }
+
+    .team-member img {
+        width: 300px;
+        height: 300px;
+    }
+
+    #products .product-item {
+        width: 300px;
+        height: 200px;
+    }
+
+    #about .info-box {
+        padding: 40px;
+    }
+
+    #about .info-box-item {
+        padding: 0 20px;
+    }
+
+    #ideology h2 {
+        font-size: 2em;
+    }
+
+    #ideology p {
+        font-size: 1.2em;
+    }
+
+    .album {
+        width: 250px;
+    }
+
+    .modal-content {
+        width: 70%;
+    }
+}
+
